@@ -8,9 +8,11 @@ mod container_with_most_water;
 mod letter_combinations_of_a_phone_number;
 mod divide_two_integers;
 mod climbing_stairs;
+mod longest_substring_without_repeating_characters;
+mod jump_game_2;
 
 fn main() {
-    let res = climbing_stairs::climb_stairs(5);
+    let res = jump_game_2::jump(vec![2,3,0,1,4]);
 //    let res = divide_two_integers::divide(-12, -1);
     println!("{:#?}", res);
 //    println!("{}", zigzag_conversion::convert("aA".to_string(), 4));

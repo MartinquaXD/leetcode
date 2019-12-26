@@ -1,12 +1,6 @@
 //https://leetcode.com/problems/climbing-stairs/
 
-/*
-1 => 1
-2 => 2
-3 => 3     3  - 1 +  rest, 3 - 2 + rest
-4 => 5     3 steps, 2 steps =>
-5 => 5 + 3
-*/
+//TODO refactor to iterative loop and only two variables instead of lookup vec
 
 fn climb(n: i32, lookup: &mut Vec<i32>) -> i32 {
     match lookup.get(n as usize) {
